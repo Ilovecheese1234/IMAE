@@ -6,6 +6,7 @@ import numpy as np
 N = 1000000  # Number of random matrices sampled
 count = 0
 
+print("Generating Key. Please Wait")
 A = np.random.randint(-100, 100, (3, 3))
 
 while(np.linalg.det(A) != 1 or np.linalg.det(A)!=-1):
